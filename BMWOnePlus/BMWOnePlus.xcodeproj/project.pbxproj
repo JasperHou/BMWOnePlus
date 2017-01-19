@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542F60855FD64EC0FE2F8851 /* Pods_BMWOnePlusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2002BA69E2CB073D53A65BC /* Pods_BMWOnePlusTests.framework */; };
+		97CCA86483C3F8BA0CCBA741 /* Pods_BMWOnePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60D0CB1678AECB49B9491FC /* Pods_BMWOnePlus.framework */; };
+		B3C0F4EA1E2E72A7007D1B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F4E91E2E72A7007D1B42 /* AppDelegate.swift */; };
+		B3C0F4EC1E2E72A7007D1B42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F4EB1E2E72A7007D1B42 /* ViewController.swift */; };
+		B3C0F4EF1E2E72A7007D1B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C0F4ED1E2E72A7007D1B42 /* Main.storyboard */; };
+		B3C0F4F21E2E72A7007D1B42 /* BMWOnePlus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F4F01E2E72A7007D1B42 /* BMWOnePlus.xcdatamodeld */; };
+		B3C0F4F41E2E72A7007D1B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C0F4F31E2E72A7007D1B42 /* Assets.xcassets */; };
+		B3C0F4F71E2E72A7007D1B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C0F4F51E2E72A7007D1B42 /* LaunchScreen.storyboard */; };
+		B3C0F5021E2E72A8007D1B42 /* BMWOnePlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F5011E2E72A8007D1B42 /* BMWOnePlusTests.swift */; };
+		B3C0F50D1E2E72A8007D1B42 /* BMWOnePlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F50C1E2E72A8007D1B42 /* BMWOnePlusUITests.swift */; };
+		B3C0F5231E2E7446007D1B42 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C0F51A1E2E7446007D1B42 /* Alamofire.framework */; };
+		B3C0F5241E2E7446007D1B42 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C0F51B1E2E7446007D1B42 /* ObjectMapper.framework */; };
+		B3C0F5291E2E7446007D1B42 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C0F5201E2E7446007D1B42 /* RxSwift.framework */; };
+		B3C0F52B1E2E7446007D1B42 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C0F5221E2E7446007D1B42 /* Swinject.framework */; };
+		B3C0F5331E2E7551007D1B42 /* Pods_BMWOnePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C0F5301E2E7551007D1B42 /* Pods_BMWOnePlus.framework */; };
+		B3C0F5371E2E7636007D1B42 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C0F5361E2E7636007D1B42 /* RxCocoa.framework */; };
+		BADC562C715277D990B6B0CA /* Pods_BMWOnePlusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDD8068EAABD439BC1D5E0E /* Pods_BMWOnePlusUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3C0F4FE1E2E72A8007D1B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3C0F4DE1E2E72A7007D1B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3C0F4E51E2E72A7007D1B42;
+			remoteInfo = BMWOnePlus;
+		};
+		B3C0F5091E2E72A8007D1B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3C0F4DE1E2E72A7007D1B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3C0F4E51E2E72A7007D1B42;
+			remoteInfo = BMWOnePlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		309ED8D7B78E01416AE93F87 /* Pods-BMWOnePlusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWOnePlusUITests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BMWOnePlusUITests/Pods-BMWOnePlusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B3B30116CF8BA55E133E51D /* Pods-BMWOnePlusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWOnePlusUITests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BMWOnePlusUITests/Pods-BMWOnePlusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FDD8068EAABD439BC1D5E0E /* Pods_BMWOnePlusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMWOnePlusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC33272F3E81131205A6B50 /* Pods-BMWOnePlusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWOnePlusTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BMWOnePlusTests/Pods-BMWOnePlusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3C0F4E61E2E72A7007D1B42 /* BMWOnePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMWOnePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C0F4E91E2E72A7007D1B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3C0F4EB1E2E72A7007D1B42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3C0F4EE1E2E72A7007D1B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3C0F4F11E2E72A7007D1B42 /* BMWOnePlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BMWOnePlus.xcdatamodel; sourceTree = "<group>"; };
+		B3C0F4F31E2E72A7007D1B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3C0F4F61E2E72A7007D1B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3C0F4F81E2E72A7007D1B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C0F4FD1E2E72A8007D1B42 /* BMWOnePlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMWOnePlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C0F5011E2E72A8007D1B42 /* BMWOnePlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMWOnePlusTests.swift; sourceTree = "<group>"; };
+		B3C0F5031E2E72A8007D1B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C0F5081E2E72A8007D1B42 /* BMWOnePlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMWOnePlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C0F50C1E2E72A8007D1B42 /* BMWOnePlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMWOnePlusUITests.swift; sourceTree = "<group>"; };
+		B3C0F50E1E2E72A8007D1B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C0F51A1E2E7446007D1B42 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		B3C0F51B1E2E7446007D1B42 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework"; sourceTree = "<group>"; };
+		B3C0F5201E2E7446007D1B42 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework"; sourceTree = "<group>"; };
+		B3C0F5221E2E7446007D1B42 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework"; sourceTree = "<group>"; };
+		B3C0F52C1E2E752C007D1B42 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Debug-iphonesimulator/RxTest/RxTest.framework"; sourceTree = "<group>"; };
+		B3C0F52E1E2E7533007D1B42 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Debug-iphonesimulator/RxBlocking/RxBlocking.framework"; sourceTree = "<group>"; };
+		B3C0F5301E2E7551007D1B42 /* Pods_BMWOnePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_BMWOnePlus.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Debug-iphonesimulator/Pods_BMWOnePlus.framework"; sourceTree = "<group>"; };
+		B3C0F5361E2E7636007D1B42 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework"; sourceTree = "<group>"; };
+		B627256F9DE7615FA36D87C0 /* Pods-BMWOnePlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWOnePlus.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BMWOnePlus/Pods-BMWOnePlus.release.xcconfig"; sourceTree = "<group>"; };
+		C60D0CB1678AECB49B9491FC /* Pods_BMWOnePlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMWOnePlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9F8A02F8494185256B0010 /* Pods-BMWOnePlusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWOnePlusTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BMWOnePlusTests/Pods-BMWOnePlusTests.release.xcconfig"; sourceTree = "<group>"; };
+		E711639671FABE2639C2E1E8 /* Pods-BMWOnePlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWOnePlus.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BMWOnePlus/Pods-BMWOnePlus.debug.xcconfig"; sourceTree = "<group>"; };
+		F2002BA69E2CB073D53A65BC /* Pods_BMWOnePlusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMWOnePlusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3C0F4E31E2E72A7007D1B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C0F5371E2E7636007D1B42 /* RxCocoa.framework in Frameworks */,
+				B3C0F5331E2E7551007D1B42 /* Pods_BMWOnePlus.framework in Frameworks */,
+				B3C0F5231E2E7446007D1B42 /* Alamofire.framework in Frameworks */,
+				B3C0F5241E2E7446007D1B42 /* ObjectMapper.framework in Frameworks */,
+				B3C0F5291E2E7446007D1B42 /* RxSwift.framework in Frameworks */,
+				B3C0F52B1E2E7446007D1B42 /* Swinject.framework in Frameworks */,
+				97CCA86483C3F8BA0CCBA741 /* Pods_BMWOnePlus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C0F4FA1E2E72A8007D1B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542F60855FD64EC0FE2F8851 /* Pods_BMWOnePlusTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C0F5051E2E72A8007D1B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADC562C715277D990B6B0CA /* Pods_BMWOnePlusUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		055657E13F861D7B319AAF41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E711639671FABE2639C2E1E8 /* Pods-BMWOnePlus.debug.xcconfig */,
+				B627256F9DE7615FA36D87C0 /* Pods-BMWOnePlus.release.xcconfig */,
+				6AC33272F3E81131205A6B50 /* Pods-BMWOnePlusTests.debug.xcconfig */,
+				DF9F8A02F8494185256B0010 /* Pods-BMWOnePlusTests.release.xcconfig */,
+				3B3B30116CF8BA55E133E51D /* Pods-BMWOnePlusUITests.debug.xcconfig */,
+				309ED8D7B78E01416AE93F87 /* Pods-BMWOnePlusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		32EE4791A768EF097D698F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0F5361E2E7636007D1B42 /* RxCocoa.framework */,
+				B3C0F5301E2E7551007D1B42 /* Pods_BMWOnePlus.framework */,
+				B3C0F52E1E2E7533007D1B42 /* RxBlocking.framework */,
+				B3C0F52C1E2E752C007D1B42 /* RxTest.framework */,
+				B3C0F51A1E2E7446007D1B42 /* Alamofire.framework */,
+				B3C0F51B1E2E7446007D1B42 /* ObjectMapper.framework */,
+				B3C0F5201E2E7446007D1B42 /* RxSwift.framework */,
+				B3C0F5221E2E7446007D1B42 /* Swinject.framework */,
+				C60D0CB1678AECB49B9491FC /* Pods_BMWOnePlus.framework */,
+				F2002BA69E2CB073D53A65BC /* Pods_BMWOnePlusTests.framework */,
+				5FDD8068EAABD439BC1D5E0E /* Pods_BMWOnePlusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3C0F4DD1E2E72A7007D1B42 = {
+			isa = PBXGroup;
+			children = (
+				B3C0F4E81E2E72A7007D1B42 /* BMWOnePlus */,
+				B3C0F5001E2E72A8007D1B42 /* BMWOnePlusTests */,
+				B3C0F50B1E2E72A8007D1B42 /* BMWOnePlusUITests */,
+				B3C0F4E71E2E72A7007D1B42 /* Products */,
+				055657E13F861D7B319AAF41 /* Pods */,
+				32EE4791A768EF097D698F05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3C0F4E71E2E72A7007D1B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0F4E61E2E72A7007D1B42 /* BMWOnePlus.app */,
+				B3C0F4FD1E2E72A8007D1B42 /* BMWOnePlusTests.xctest */,
+				B3C0F5081E2E72A8007D1B42 /* BMWOnePlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3C0F4E81E2E72A7007D1B42 /* BMWOnePlus */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0F4E91E2E72A7007D1B42 /* AppDelegate.swift */,
+				B3C0F4EB1E2E72A7007D1B42 /* ViewController.swift */,
+				B3C0F4ED1E2E72A7007D1B42 /* Main.storyboard */,
+				B3C0F4F31E2E72A7007D1B42 /* Assets.xcassets */,
+				B3C0F4F51E2E72A7007D1B42 /* LaunchScreen.storyboard */,
+				B3C0F4F81E2E72A7007D1B42 /* Info.plist */,
+				B3C0F4F01E2E72A7007D1B42 /* BMWOnePlus.xcdatamodeld */,
+			);
+			path = BMWOnePlus;
+			sourceTree = "<group>";
+		};
+		B3C0F5001E2E72A8007D1B42 /* BMWOnePlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0F5011E2E72A8007D1B42 /* BMWOnePlusTests.swift */,
+				B3C0F5031E2E72A8007D1B42 /* Info.plist */,
+			);
+			path = BMWOnePlusTests;
+			sourceTree = "<group>";
+		};
+		B3C0F50B1E2E72A8007D1B42 /* BMWOnePlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0F50C1E2E72A8007D1B42 /* BMWOnePlusUITests.swift */,
+				B3C0F50E1E2E72A8007D1B42 /* Info.plist */,
+			);
+			path = BMWOnePlusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3C0F4E51E2E72A7007D1B42 /* BMWOnePlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C0F5111E2E72A8007D1B42 /* Build configuration list for PBXNativeTarget "BMWOnePlus" */;
+			buildPhases = (
+				5953A17063D865C1E6CFBA65 /* [CP] Check Pods Manifest.lock */,
+				B3C0F4E21E2E72A7007D1B42 /* Sources */,
+				B3C0F4E31E2E72A7007D1B42 /* Frameworks */,
+				B3C0F4E41E2E72A7007D1B42 /* Resources */,
+				5CA0E7EB58A06B230CCF023E /* [CP] Embed Pods Frameworks */,
+				7A7FA0484F1284D10B067810 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMWOnePlus;
+			productName = BMWOnePlus;
+			productReference = B3C0F4E61E2E72A7007D1B42 /* BMWOnePlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3C0F4FC1E2E72A8007D1B42 /* BMWOnePlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C0F5141E2E72A8007D1B42 /* Build configuration list for PBXNativeTarget "BMWOnePlusTests" */;
+			buildPhases = (
+				78C2AB47310B6D1B8836EB3B /* [CP] Check Pods Manifest.lock */,
+				B3C0F4F91E2E72A8007D1B42 /* Sources */,
+				B3C0F4FA1E2E72A8007D1B42 /* Frameworks */,
+				B3C0F4FB1E2E72A8007D1B42 /* Resources */,
+				51A964BA4FFE4142358AC8A9 /* [CP] Embed Pods Frameworks */,
+				2F7FA2012CE4E4843C797DF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3C0F4FF1E2E72A8007D1B42 /* PBXTargetDependency */,
+			);
+			name = BMWOnePlusTests;
+			productName = BMWOnePlusTests;
+			productReference = B3C0F4FD1E2E72A8007D1B42 /* BMWOnePlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3C0F5071E2E72A8007D1B42 /* BMWOnePlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C0F5171E2E72A8007D1B42 /* Build configuration list for PBXNativeTarget "BMWOnePlusUITests" */;
+			buildPhases = (
+				2880D6DB384BB2D0A5011C75 /* [CP] Check Pods Manifest.lock */,
+				B3C0F5041E2E72A8007D1B42 /* Sources */,
+				B3C0F5051E2E72A8007D1B42 /* Frameworks */,
+				B3C0F5061E2E72A8007D1B42 /* Resources */,
+				0F3AD9C526CF50F1DBEC22F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3C0F50A1E2E72A8007D1B42 /* PBXTargetDependency */,
+			);
+			name = BMWOnePlusUITests;
+			productName = BMWOnePlusUITests;
+			productReference = B3C0F5081E2E72A8007D1B42 /* BMWOnePlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3C0F4DE1E2E72A7007D1B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Hou;
+				TargetAttributes = {
+					B3C0F4E51E2E72A7007D1B42 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					B3C0F4FC1E2E72A8007D1B42 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3C0F4E51E2E72A7007D1B42;
+					};
+					B3C0F5071E2E72A8007D1B42 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3C0F4E51E2E72A7007D1B42;
+					};
+				};
+			};
+			buildConfigurationList = B3C0F4E11E2E72A7007D1B42 /* Build configuration list for PBXProject "BMWOnePlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3C0F4DD1E2E72A7007D1B42;
+			productRefGroup = B3C0F4E71E2E72A7007D1B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3C0F4E51E2E72A7007D1B42 /* BMWOnePlus */,
+				B3C0F4FC1E2E72A8007D1B42 /* BMWOnePlusTests */,
+				B3C0F5071E2E72A8007D1B42 /* BMWOnePlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3C0F4E41E2E72A7007D1B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C0F4F71E2E72A7007D1B42 /* LaunchScreen.storyboard in Resources */,
+				B3C0F4F41E2E72A7007D1B42 /* Assets.xcassets in Resources */,
+				B3C0F4EF1E2E72A7007D1B42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C0F4FB1E2E72A8007D1B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C0F5061E2E72A8007D1B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F3AD9C526CF50F1DBEC22F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BMWOnePlusUITests/Pods-BMWOnePlusUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2880D6DB384BB2D0A5011C75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F7FA2012CE4E4843C797DF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BMWOnePlusTests/Pods-BMWOnePlusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51A964BA4FFE4142358AC8A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BMWOnePlusTests/Pods-BMWOnePlusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5953A17063D865C1E6CFBA65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5CA0E7EB58A06B230CCF023E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BMWOnePlus/Pods-BMWOnePlus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78C2AB47310B6D1B8836EB3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A7FA0484F1284D10B067810 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BMWOnePlus/Pods-BMWOnePlus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3C0F4E21E2E72A7007D1B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C0F4EC1E2E72A7007D1B42 /* ViewController.swift in Sources */,
+				B3C0F4EA1E2E72A7007D1B42 /* AppDelegate.swift in Sources */,
+				B3C0F4F21E2E72A7007D1B42 /* BMWOnePlus.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C0F4F91E2E72A8007D1B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C0F5021E2E72A8007D1B42 /* BMWOnePlusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C0F5041E2E72A8007D1B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C0F50D1E2E72A8007D1B42 /* BMWOnePlusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3C0F4FF1E2E72A8007D1B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3C0F4E51E2E72A7007D1B42 /* BMWOnePlus */;
+			targetProxy = B3C0F4FE1E2E72A8007D1B42 /* PBXContainerItemProxy */;
+		};
+		B3C0F50A1E2E72A8007D1B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3C0F4E51E2E72A7007D1B42 /* BMWOnePlus */;
+			targetProxy = B3C0F5091E2E72A8007D1B42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3C0F4ED1E2E72A7007D1B42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C0F4EE1E2E72A7007D1B42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3C0F4F51E2E72A7007D1B42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C0F4F61E2E72A7007D1B42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3C0F50F1E2E72A8007D1B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3C0F5101E2E72A8007D1B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3C0F5121E2E72A8007D1B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E711639671FABE2639C2E1E8 /* Pods-BMWOnePlus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BMWOnePlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jasper.Hou.BMWOnePlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B3C0F5131E2E72A8007D1B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B627256F9DE7615FA36D87C0 /* Pods-BMWOnePlus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BMWOnePlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jasper.Hou.BMWOnePlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B3C0F5151E2E72A8007D1B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC33272F3E81131205A6B50 /* Pods-BMWOnePlusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BMWOnePlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jasper.Hou.BMWOnePlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMWOnePlus.app/BMWOnePlus";
+			};
+			name = Debug;
+		};
+		B3C0F5161E2E72A8007D1B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9F8A02F8494185256B0010 /* Pods-BMWOnePlusTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BMWOnePlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jasper.Hou.BMWOnePlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMWOnePlus.app/BMWOnePlus";
+			};
+			name = Release;
+		};
+		B3C0F5181E2E72A8007D1B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B3B30116CF8BA55E133E51D /* Pods-BMWOnePlusUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BMWOnePlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jasper.Hou.BMWOnePlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BMWOnePlus;
+			};
+			name = Debug;
+		};
+		B3C0F5191E2E72A8007D1B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309ED8D7B78E01416AE93F87 /* Pods-BMWOnePlusUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BMWOnePlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jasper.Hou.BMWOnePlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BMWOnePlus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3C0F4E11E2E72A7007D1B42 /* Build configuration list for PBXProject "BMWOnePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C0F50F1E2E72A8007D1B42 /* Debug */,
+				B3C0F5101E2E72A8007D1B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C0F5111E2E72A8007D1B42 /* Build configuration list for PBXNativeTarget "BMWOnePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C0F5121E2E72A8007D1B42 /* Debug */,
+				B3C0F5131E2E72A8007D1B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C0F5141E2E72A8007D1B42 /* Build configuration list for PBXNativeTarget "BMWOnePlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C0F5151E2E72A8007D1B42 /* Debug */,
+				B3C0F5161E2E72A8007D1B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C0F5171E2E72A8007D1B42 /* Build configuration list for PBXNativeTarget "BMWOnePlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C0F5181E2E72A8007D1B42 /* Debug */,
+				B3C0F5191E2E72A8007D1B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B3C0F4F01E2E72A7007D1B42 /* BMWOnePlus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B3C0F4F11E2E72A7007D1B42 /* BMWOnePlus.xcdatamodel */,
+			);
+			currentVersion = B3C0F4F11E2E72A7007D1B42 /* BMWOnePlus.xcdatamodel */;
+			path = BMWOnePlus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B3C0F4DE1E2E72A7007D1B42 /* Project object */;
+}

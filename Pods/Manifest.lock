@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (4.3.0)
+  - ObjectMapper (2.2.2)
+  - RxCocoa (3.1.0):
+    - RxSwift (~> 3.1)
+  - RxSwift (3.1.0)
+  - Swinject (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - ObjectMapper (~> 2.2)
+  - RxCocoa (~> 3.0)
+  - RxSwift (~> 3.0)
+  - Swinject (= 2.0.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+  RxCocoa: 50d7564866da9299161e86a263ce12a0873904d8
+  RxSwift: 83ff553e7593fdfdcb2562933a64c0284dffdadc
+  Swinject: 2e964a80d70ab09b3949c99032711f89147bfd60
+
+PODFILE CHECKSUM: 585f055f9bab4bf1f5c73fb8542c509293122bb5
+
+COCOAPODS: 1.0.1

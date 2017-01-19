@@ -1,0 +1,6 @@
+framework module Pods_BMWOnePlusTests {
+  umbrella header "Pods-BMWOnePlusTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
