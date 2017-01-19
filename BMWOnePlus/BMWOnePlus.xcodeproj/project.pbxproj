@@ -695,6 +695,98 @@
 			};
 			name = Release;
 		};
+		B3C0F5381E3109C7007D1B42 /* Integrate */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Integrate;
+		};
+		B3C0F5391E3109C7007D1B42 /* Integrate */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E711639671FABE2639C2E1E8 /* Pods-BMWOnePlus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BMWOnePlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jasper.Hou.BMWOnePlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Integrate;
+		};
+		B3C0F53A1E3109C7007D1B42 /* Integrate */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC33272F3E81131205A6B50 /* Pods-BMWOnePlusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BMWOnePlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jasper.Hou.BMWOnePlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMWOnePlus.app/BMWOnePlus";
+			};
+			name = Integrate;
+		};
+		B3C0F53B1E3109C7007D1B42 /* Integrate */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B3B30116CF8BA55E133E51D /* Pods-BMWOnePlusUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BMWOnePlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jasper.Hou.BMWOnePlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BMWOnePlus;
+			};
+			name = Integrate;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -702,6 +794,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3C0F50F1E2E72A8007D1B42 /* Debug */,
+				B3C0F5381E3109C7007D1B42 /* Integrate */,
 				B3C0F5101E2E72A8007D1B42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -711,6 +804,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3C0F5121E2E72A8007D1B42 /* Debug */,
+				B3C0F5391E3109C7007D1B42 /* Integrate */,
 				B3C0F5131E2E72A8007D1B42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -720,6 +814,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3C0F5151E2E72A8007D1B42 /* Debug */,
+				B3C0F53A1E3109C7007D1B42 /* Integrate */,
 				B3C0F5161E2E72A8007D1B42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -729,6 +824,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3C0F5181E2E72A8007D1B42 /* Debug */,
+				B3C0F53B1E3109C7007D1B42 /* Integrate */,
 				B3C0F5191E2E72A8007D1B42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
