@@ -8,97 +8,81 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>ObjectMapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Pods-BMWOnePlus.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>Pods-BMWOnePlusTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>Pods-BMWOnePlusUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>RxCocoa.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
 		</dict>
 		<key>RxSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>7</integer>
 		</dict>
 		<key>Swinject.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>8</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4FEA07CC1F53C3A6D9519CBAA626E997</key>
+		<key>2A7DA4D952453F2535295A2B0ADE4447</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>52BA64FBB7ED49079C9B377A2D7A642B</key>
+		<key>35EBF55DFAD1C2413A6906B25BD46382</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<key>6A8E53A3AA7BD1F1BE5F6EB2A7C71766</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7B8E71825E637633405A9F54EACACCB0</key>
+		<key>8A020F6124BDE1545AF2BBDCE7EA712E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BD837F0E95980C9B1F97061914333FC6</key>
+		<key>AC1B8608CE91A2AD009DAAF265592FE2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E30CA1A9FD95C1FF06C2A8847196943B</key>
+		<key>B5EEDB55FE03DEC829640007B234FE11</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E686C7D29DF226F404320D14DC948AD4</key>
+		<key>EA54C307DFA25FC5340261006D4E291E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FF1FFBB65B75837E8776684FE183732C</key>
+		<key>FDBA9B89EA5817B79833F0EF356D153A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

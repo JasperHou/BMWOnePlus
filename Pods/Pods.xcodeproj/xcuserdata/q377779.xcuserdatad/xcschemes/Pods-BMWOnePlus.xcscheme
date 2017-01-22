@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FEA07CC1F53C3A6D9519CBAA626E997"
+               BlueprintIdentifier = "2A7DA4D952453F2535295A2B0ADE4447"
                BuildableName = "Pods_BMWOnePlus.framework"
                BlueprintName = "Pods-BMWOnePlus"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FEA07CC1F53C3A6D9519CBAA626E997"
+            BlueprintIdentifier = "2A7DA4D952453F2535295A2B0ADE4447"
             BuildableName = "Pods_BMWOnePlus.framework"
             BlueprintName = "Pods-BMWOnePlus"
             ReferencedContainer = "container:Pods.xcodeproj">
