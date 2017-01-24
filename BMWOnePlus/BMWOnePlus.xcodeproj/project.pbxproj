@@ -13,6 +13,8 @@
 		B301FE771E34EB7C007333CF /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B301FE721E34EB7C007333CF /* RxSwift.framework */; };
 		B301FE781E34EB7C007333CF /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B301FE731E34EB7C007333CF /* Swinject.framework */; };
 		B301FE7A1E34EB80007333CF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B301FE791E34EB80007333CF /* Alamofire.framework */; };
+		B3A319141E37A69800157A03 /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A319131E37A69800157A03 /* AppLog.swift */; };
+		B3A319161E37A6BE00157A03 /* A4ALog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A319151E37A6BE00157A03 /* A4ALog.swift */; };
 		B3C0F4EA1E2E72A7007D1B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F4E91E2E72A7007D1B42 /* AppDelegate.swift */; };
 		B3C0F4EC1E2E72A7007D1B42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F4EB1E2E72A7007D1B42 /* ViewController.swift */; };
 		B3C0F4EF1E2E72A7007D1B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C0F4ED1E2E72A7007D1B42 /* Main.storyboard */; };
@@ -60,6 +62,8 @@
 		B301FE721E34EB7C007333CF /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Production-iphonesimulator/RxSwift/RxSwift.framework"; sourceTree = "<group>"; };
 		B301FE731E34EB7C007333CF /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Production-iphonesimulator/Swinject/Swinject.framework"; sourceTree = "<group>"; };
 		B301FE791E34EB80007333CF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Production-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		B3A319131E37A69800157A03 /* AppLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLog.swift; sourceTree = "<group>"; };
+		B3A319151E37A6BE00157A03 /* A4ALog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A4ALog.swift; sourceTree = "<group>"; };
 		B3C0F4E61E2E72A7007D1B42 /* BMWOnePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMWOnePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C0F4E91E2E72A7007D1B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3C0F4EB1E2E72A7007D1B42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 		B3A319111E37A45D00157A03 /* Log */ = {
 			isa = PBXGroup;
 			children = (
+				B3A319131E37A69800157A03 /* AppLog.swift */,
+				B3A319151E37A6BE00157A03 /* A4ALog.swift */,
 			);
 			path = Log;
 			sourceTree = "<group>";
@@ -523,6 +529,8 @@
 			files = (
 				B3C0F4EC1E2E72A7007D1B42 /* ViewController.swift in Sources */,
 				B3C0F4EA1E2E72A7007D1B42 /* AppDelegate.swift in Sources */,
+				B3A319161E37A6BE00157A03 /* A4ALog.swift in Sources */,
+				B3A319141E37A69800157A03 /* AppLog.swift in Sources */,
 				B3C0F4F21E2E72A7007D1B42 /* BMWOnePlus.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
