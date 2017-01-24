@@ -165,6 +165,7 @@
 		B3A3190D1E37A00D00157A03 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				B3A319111E37A45D00157A03 /* Log */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -179,8 +180,23 @@
 		B3A3190F1E37A08100157A03 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B3A319101E37A38A00157A03 /* Localization */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B3A319101E37A38A00157A03 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		B3A319111E37A45D00157A03 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Log;
 			sourceTree = "<group>";
 		};
 		B3C0F4DD1E2E72A7007D1B42 = {
