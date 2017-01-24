@@ -162,9 +162,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B3A3190D1E37A00D00157A03 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		B3A3190E1E37A02200157A03 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		B3A3190F1E37A08100157A03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		B3C0F4DD1E2E72A7007D1B42 = {
 			isa = PBXGroup;
 			children = (
+				B3A3190F1E37A08100157A03 /* Resources */,
+				B3A3190D1E37A00D00157A03 /* Common */,
+				B3A3190E1E37A02200157A03 /* Modules */,
 				B3C0F4E81E2E72A7007D1B42 /* BMWOnePlus */,
 				B3C0F5001E2E72A8007D1B42 /* BMWOnePlusTests */,
 				B3C0F50B1E2E72A8007D1B42 /* BMWOnePlusUITests */,
