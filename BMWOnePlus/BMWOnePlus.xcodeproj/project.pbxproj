@@ -166,21 +166,21 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		B3A3190E1E37A02200157A03 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Modules;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		B3A3190F1E37A08100157A03 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		B3C0F4DD1E2E72A7007D1B42 = {
