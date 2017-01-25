@@ -15,11 +15,12 @@
 		B301FE7A1E34EB80007333CF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B301FE791E34EB80007333CF /* Alamofire.framework */; };
 		B3A319141E37A69800157A03 /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A319131E37A69800157A03 /* AppLog.swift */; };
 		B3A319161E37A6BE00157A03 /* A4ALog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A319151E37A6BE00157A03 /* A4ALog.swift */; };
+		B3A3191D1E38F80000157A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A3191C1E38F80000157A03 /* Assets.xcassets */; };
+		B3A319291E38FCED00157A03 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3A3192B1E38FCED00157A03 /* Localizable.strings */; };
 		B3C0F4EA1E2E72A7007D1B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F4E91E2E72A7007D1B42 /* AppDelegate.swift */; };
 		B3C0F4EC1E2E72A7007D1B42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F4EB1E2E72A7007D1B42 /* ViewController.swift */; };
 		B3C0F4EF1E2E72A7007D1B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C0F4ED1E2E72A7007D1B42 /* Main.storyboard */; };
 		B3C0F4F21E2E72A7007D1B42 /* BMWOnePlus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F4F01E2E72A7007D1B42 /* BMWOnePlus.xcdatamodeld */; };
-		B3C0F4F41E2E72A7007D1B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C0F4F31E2E72A7007D1B42 /* Assets.xcassets */; };
 		B3C0F4F71E2E72A7007D1B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C0F4F51E2E72A7007D1B42 /* LaunchScreen.storyboard */; };
 		B3C0F5021E2E72A8007D1B42 /* BMWOnePlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F5011E2E72A8007D1B42 /* BMWOnePlusTests.swift */; };
 		B3C0F50D1E2E72A8007D1B42 /* BMWOnePlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F50C1E2E72A8007D1B42 /* BMWOnePlusUITests.swift */; };
@@ -64,12 +65,17 @@
 		B301FE791E34EB80007333CF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Production-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		B3A319131E37A69800157A03 /* AppLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLog.swift; sourceTree = "<group>"; };
 		B3A319151E37A6BE00157A03 /* A4ALog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A4ALog.swift; sourceTree = "<group>"; };
+		B3A3191C1E38F80000157A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3A3192A1E38FCED00157A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B3A3192C1E38FCF200157A03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B3A3192D1E38FDC400157A03 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B3A3192E1E38FDE100157A03 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B3A3192F1E38FE0000157A03 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B3C0F4E61E2E72A7007D1B42 /* BMWOnePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMWOnePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C0F4E91E2E72A7007D1B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3C0F4EB1E2E72A7007D1B42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3C0F4EE1E2E72A7007D1B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3C0F4F11E2E72A7007D1B42 /* BMWOnePlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BMWOnePlus.xcdatamodel; sourceTree = "<group>"; };
-		B3C0F4F31E2E72A7007D1B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3C0F4F61E2E72A7007D1B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3C0F4F81E2E72A7007D1B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3C0F4FD1E2E72A8007D1B42 /* BMWOnePlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMWOnePlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +183,13 @@
 		B3A3190E1E37A02200157A03 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				B3A319261E38FA3800157A03 /* Destination */,
+				B3A319251E38FA1000157A03 /* RemoteControl */,
+				B3A319241E38FA0500157A03 /* Trips */,
+				B3A319231E38F9F100157A03 /* ServiceBooking */,
+				B3A319221E38F9E400157A03 /* Discover */,
+				B3A319211E38F9D600157A03 /* Settings */,
+				B3A319201E38F9C800157A03 /* Login */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -184,6 +197,7 @@
 		B3A3190F1E37A08100157A03 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B3A3191B1E38F79400157A03 /* Assets */,
 				B3A319101E37A38A00157A03 /* Localization */,
 			);
 			path = Resources;
@@ -192,6 +206,7 @@
 		B3A319101E37A38A00157A03 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
+				B3A3192B1E38FCED00157A03 /* Localizable.strings */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -203,6 +218,63 @@
 				B3A319151E37A6BE00157A03 /* A4ALog.swift */,
 			);
 			path = Log;
+			sourceTree = "<group>";
+		};
+		B3A3191B1E38F79400157A03 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B3A3191C1E38F80000157A03 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B3A319201E38F9C800157A03 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B3A319211E38F9D600157A03 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B3A319221E38F9E400157A03 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		B3A319231E38F9F100157A03 /* ServiceBooking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ServiceBooking;
+			sourceTree = "<group>";
+		};
+		B3A319241E38FA0500157A03 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		B3A319251E38FA1000157A03 /* RemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RemoteControl;
+			sourceTree = "<group>";
+		};
+		B3A319261E38FA3800157A03 /* Destination */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Destination;
 			sourceTree = "<group>";
 		};
 		B3C0F4DD1E2E72A7007D1B42 = {
@@ -236,7 +308,6 @@
 				B3C0F4E91E2E72A7007D1B42 /* AppDelegate.swift */,
 				B3C0F4EB1E2E72A7007D1B42 /* ViewController.swift */,
 				B3C0F4ED1E2E72A7007D1B42 /* Main.storyboard */,
-				B3C0F4F31E2E72A7007D1B42 /* Assets.xcassets */,
 				B3C0F4F51E2E72A7007D1B42 /* LaunchScreen.storyboard */,
 				B3C0F4F81E2E72A7007D1B42 /* Info.plist */,
 				B3C0F4F01E2E72A7007D1B42 /* BMWOnePlus.xcdatamodeld */,
@@ -359,6 +430,9 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				es,
+				it,
 			);
 			mainGroup = B3C0F4DD1E2E72A7007D1B42;
 			productRefGroup = B3C0F4E71E2E72A7007D1B42 /* Products */;
@@ -378,8 +452,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3C0F4F71E2E72A7007D1B42 /* LaunchScreen.storyboard in Resources */,
-				B3C0F4F41E2E72A7007D1B42 /* Assets.xcassets in Resources */,
+				B3A319291E38FCED00157A03 /* Localizable.strings in Resources */,
 				B3C0F4EF1E2E72A7007D1B42 /* Main.storyboard in Resources */,
+				B3A3191D1E38F80000157A03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +642,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B3A3192B1E38FCED00157A03 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3A3192A1E38FCED00157A03 /* Base */,
+				B3A3192C1E38FCF200157A03 /* en */,
+				B3A3192D1E38FDC400157A03 /* zh-Hans */,
+				B3A3192E1E38FDE100157A03 /* es */,
+				B3A3192F1E38FE0000157A03 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		B3C0F4ED1E2E72A7007D1B42 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -591,6 +678,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_NAME = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -686,6 +774,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_NAME = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -782,6 +871,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_NAME = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -870,6 +960,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_NAME = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -920,6 +1011,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_NAME = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1053,6 +1145,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_NAME = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
