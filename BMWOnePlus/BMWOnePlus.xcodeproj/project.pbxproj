@@ -24,6 +24,11 @@
 		B3C0F4F71E2E72A7007D1B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C0F4F51E2E72A7007D1B42 /* LaunchScreen.storyboard */; };
 		B3C0F5021E2E72A8007D1B42 /* BMWOnePlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F5011E2E72A8007D1B42 /* BMWOnePlusTests.swift */; };
 		B3C0F50D1E2E72A8007D1B42 /* BMWOnePlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F50C1E2E72A8007D1B42 /* BMWOnePlusUITests.swift */; };
+		B3DF72591E3F931E00E68C6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF72581E3F931E00E68C6A /* LoginViewController.swift */; };
+		B3DF725B1E3F939600E68C6A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF725A1E3F939600E68C6A /* LoginViewModel.swift */; };
+		B3DF725D1E3F947700E68C6A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF725C1E3F947700E68C6A /* User.swift */; };
+		B3DF725F1E3F94A200E68C6A /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF725E1E3F94A200E68C6A /* LoginService.swift */; };
+		B3DF72611E3F94DD00E68C6A /* LoginApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF72601E3F94DD00E68C6A /* LoginApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +89,11 @@
 		B3C0F5081E2E72A8007D1B42 /* BMWOnePlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMWOnePlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C0F50C1E2E72A8007D1B42 /* BMWOnePlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMWOnePlusUITests.swift; sourceTree = "<group>"; };
 		B3C0F50E1E2E72A8007D1B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DF72581E3F931E00E68C6A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B3DF725A1E3F939600E68C6A /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B3DF725C1E3F947700E68C6A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B3DF725E1E3F94A200E68C6A /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		B3DF72601E3F94DD00E68C6A /* LoginApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginApi.swift; sourceTree = "<group>"; };
 		B627256F9DE7615FA36D87C0 /* Pods-BMWOnePlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWOnePlus.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BMWOnePlus/Pods-BMWOnePlus.release.xcconfig"; sourceTree = "<group>"; };
 		C34D2D660C32CC71C06B0986 /* Pods-BMWOnePlusUITests.integration-cn.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWOnePlusUITests.integration-cn.xcconfig"; path = "../Pods/Target Support Files/Pods-BMWOnePlusUITests/Pods-BMWOnePlusUITests.integration-cn.xcconfig"; sourceTree = "<group>"; };
 		CEAFAE487D4002B954B86050 /* Pods-BMWOnePlusUITests.development-cn.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWOnePlusUITests.development-cn.xcconfig"; path = "../Pods/Target Support Files/Pods-BMWOnePlusUITests/Pods-BMWOnePlusUITests.development-cn.xcconfig"; sourceTree = "<group>"; };
@@ -175,7 +185,12 @@
 		B3A3190D1E37A00D00157A03 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				B3A319111E37A45D00157A03 /* Log */,
+				B3DF72571E3F913B00E68C6A /* Assembly */,
+				B3DF72561E3F90E700E68C6A /* Utils */,
+				B3DF72551E3F90AC00E68C6A /* Analytics */,
+				B3DF72541E3F908700E68C6A /* Persistence */,
+				B3DF72531E3F903A00E68C6A /* RestApi */,
+				B3A319111E37A45D00157A03 /* Logging */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -211,13 +226,13 @@
 			path = Localization;
 			sourceTree = "<group>";
 		};
-		B3A319111E37A45D00157A03 /* Log */ = {
+		B3A319111E37A45D00157A03 /* Logging */ = {
 			isa = PBXGroup;
 			children = (
 				B3A319131E37A69800157A03 /* AppLog.swift */,
 				B3A319151E37A6BE00157A03 /* A4ALog.swift */,
 			);
-			path = Log;
+			path = Logging;
 			sourceTree = "<group>";
 		};
 		B3A3191B1E38F79400157A03 /* Assets */ = {
@@ -231,6 +246,11 @@
 		B3A319201E38F9C800157A03 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				B3DF72521E3F900300E68C6A /* Api */,
+				B3DF72511E3F8FF400E68C6A /* Service */,
+				B3DF72501E3F8F7F00E68C6A /* Model */,
+				B3DF724F1E3F8F7300E68C6A /* ViewModel */,
+				B3DF724E1E3F8F5B00E68C6A /* View */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -331,6 +351,81 @@
 				B3C0F50E1E2E72A8007D1B42 /* Info.plist */,
 			);
 			path = BMWOnePlusUITests;
+			sourceTree = "<group>";
+		};
+		B3DF724E1E3F8F5B00E68C6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF72581E3F931E00E68C6A /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3DF724F1E3F8F7300E68C6A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF725A1E3F939600E68C6A /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B3DF72501E3F8F7F00E68C6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF725C1E3F947700E68C6A /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3DF72511E3F8FF400E68C6A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF725E1E3F94A200E68C6A /* LoginService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B3DF72521E3F900300E68C6A /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF72601E3F94DD00E68C6A /* LoginApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		B3DF72531E3F903A00E68C6A /* RestApi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RestApi;
+			sourceTree = "<group>";
+		};
+		B3DF72541E3F908700E68C6A /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		B3DF72551E3F90AC00E68C6A /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		B3DF72561E3F90E700E68C6A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		B3DF72571E3F913B00E68C6A /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -602,11 +697,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DF72591E3F931E00E68C6A /* LoginViewController.swift in Sources */,
 				B3C0F4EC1E2E72A7007D1B42 /* ViewController.swift in Sources */,
 				B3C0F4EA1E2E72A7007D1B42 /* AppDelegate.swift in Sources */,
 				B3A319161E37A6BE00157A03 /* A4ALog.swift in Sources */,
+				B3DF72611E3F94DD00E68C6A /* LoginApi.swift in Sources */,
+				B3DF725F1E3F94A200E68C6A /* LoginService.swift in Sources */,
+				B3DF725D1E3F947700E68C6A /* User.swift in Sources */,
 				B3A319141E37A69800157A03 /* AppLog.swift in Sources */,
 				B3C0F4F21E2E72A7007D1B42 /* BMWOnePlus.xcdatamodeld in Sources */,
+				B3DF725B1E3F939600E68C6A /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
