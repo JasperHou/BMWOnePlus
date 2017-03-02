@@ -13,12 +13,13 @@
 		B301FE771E34EB7C007333CF /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B301FE721E34EB7C007333CF /* RxSwift.framework */; };
 		B301FE781E34EB7C007333CF /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B301FE731E34EB7C007333CF /* Swinject.framework */; };
 		B301FE7A1E34EB80007333CF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B301FE791E34EB80007333CF /* Alamofire.framework */; };
+		B307A0CE1E68DED700C7F451 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B307A0CD1E68DED700C7F451 /* SettingsViewController.swift */; };
+		B307A0D01E68DF5000C7F451 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B307A0CF1E68DF5000C7F451 /* Settings.storyboard */; };
 		B3A319141E37A69800157A03 /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A319131E37A69800157A03 /* AppLog.swift */; };
 		B3A319161E37A6BE00157A03 /* A4ALog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A319151E37A6BE00157A03 /* A4ALog.swift */; };
 		B3A3191D1E38F80000157A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A3191C1E38F80000157A03 /* Assets.xcassets */; };
 		B3A319291E38FCED00157A03 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3A3192B1E38FCED00157A03 /* Localizable.strings */; };
 		B3C0F4EA1E2E72A7007D1B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F4E91E2E72A7007D1B42 /* AppDelegate.swift */; };
-		B3C0F4EC1E2E72A7007D1B42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F4EB1E2E72A7007D1B42 /* ViewController.swift */; };
 		B3C0F4EF1E2E72A7007D1B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C0F4ED1E2E72A7007D1B42 /* Main.storyboard */; };
 		B3C0F4F21E2E72A7007D1B42 /* BMWOnePlus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F4F01E2E72A7007D1B42 /* BMWOnePlus.xcdatamodeld */; };
 		B3C0F4F71E2E72A7007D1B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C0F4F51E2E72A7007D1B42 /* LaunchScreen.storyboard */; };
@@ -68,6 +69,8 @@
 		B301FE721E34EB7C007333CF /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Production-iphonesimulator/RxSwift/RxSwift.framework"; sourceTree = "<group>"; };
 		B301FE731E34EB7C007333CF /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Production-iphonesimulator/Swinject/Swinject.framework"; sourceTree = "<group>"; };
 		B301FE791E34EB80007333CF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMWOnePlus-flryibkrvvuzugfyygnilaigwfec/Build/Products/Production-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		B307A0CD1E68DED700C7F451 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B307A0CF1E68DF5000C7F451 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Settings.storyboard; path = Modules/Settings/View/Settings.storyboard; sourceTree = SOURCE_ROOT; };
 		B3A319131E37A69800157A03 /* AppLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLog.swift; sourceTree = "<group>"; };
 		B3A319151E37A6BE00157A03 /* A4ALog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A4ALog.swift; sourceTree = "<group>"; };
 		B3A3191C1E38F80000157A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,7 +81,6 @@
 		B3A3192F1E38FE0000157A03 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B3C0F4E61E2E72A7007D1B42 /* BMWOnePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMWOnePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C0F4E91E2E72A7007D1B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3C0F4EB1E2E72A7007D1B42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3C0F4EE1E2E72A7007D1B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3C0F4F11E2E72A7007D1B42 /* BMWOnePlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BMWOnePlus.xcdatamodel; sourceTree = "<group>"; };
 		B3C0F4F61E2E72A7007D1B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -182,6 +184,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B307A0CC1E68DE4900C7F451 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B307A0CD1E68DED700C7F451 /* SettingsViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		B3A3190D1E37A00D00157A03 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,8 +268,11 @@
 		B3A319211E38F9D600157A03 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				B307A0CC1E68DE4900C7F451 /* ViewController */,
+				B3C9705C1E5FA198009A5CBC /* View */,
 			);
-			path = Settings;
+			name = Settings;
+			path = Settings/ViewController;
 			sourceTree = "<group>";
 		};
 		B3A319221E38F9E400157A03 /* Discover */ = {
@@ -326,7 +339,6 @@
 			isa = PBXGroup;
 			children = (
 				B3C0F4E91E2E72A7007D1B42 /* AppDelegate.swift */,
-				B3C0F4EB1E2E72A7007D1B42 /* ViewController.swift */,
 				B3C0F4ED1E2E72A7007D1B42 /* Main.storyboard */,
 				B3C0F4F51E2E72A7007D1B42 /* LaunchScreen.storyboard */,
 				B3C0F4F81E2E72A7007D1B42 /* Info.plist */,
@@ -351,6 +363,14 @@
 				B3C0F50E1E2E72A8007D1B42 /* Info.plist */,
 			);
 			path = BMWOnePlusUITests;
+			sourceTree = "<group>";
+		};
+		B3C9705C1E5FA198009A5CBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B307A0CF1E68DF5000C7F451 /* Settings.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B3DF724E1E3F8F5B00E68C6A /* View */ = {
@@ -550,6 +570,7 @@
 				B3A319291E38FCED00157A03 /* Localizable.strings in Resources */,
 				B3C0F4EF1E2E72A7007D1B42 /* Main.storyboard in Resources */,
 				B3A3191D1E38F80000157A03 /* Assets.xcassets in Resources */,
+				B307A0D01E68DF5000C7F451 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,9 +719,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3DF72591E3F931E00E68C6A /* LoginViewController.swift in Sources */,
-				B3C0F4EC1E2E72A7007D1B42 /* ViewController.swift in Sources */,
 				B3C0F4EA1E2E72A7007D1B42 /* AppDelegate.swift in Sources */,
 				B3A319161E37A6BE00157A03 /* A4ALog.swift in Sources */,
+				B307A0CE1E68DED700C7F451 /* SettingsViewController.swift in Sources */,
 				B3DF72611E3F94DD00E68C6A /* LoginApi.swift in Sources */,
 				B3DF725F1E3F94A200E68C6A /* LoginService.swift in Sources */,
 				B3DF725D1E3F947700E68C6A /* User.swift in Sources */,
